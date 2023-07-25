@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>controles de video</title>
+    <link rel="stylesheet" href="video-controls.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <video id="video1" class="video" src="/assets/Why-are-you-so-serious.mp4">
+        </video>
+
+        <div class="control">
+            <img class="btn" onclick="retroceder()" src="/imagens/button-rewind-1.png">
+            <img class="btn" onclick="avanca()" src="/imagens/button-fast-forward-1.png">
+            <img class="btn" onclick="diminuir_velo()" src="/imagens/button-previous.png">
+            <img class="btn" onclick="aumentar_velo()" src="/imagens/button-next.png">
+            <img class="btn" onclick="play()" src="/imagens/button-play.png">
+            <img class="btn" onclick="stop()" src="/imagens/button-stop.png">
+        </div>
+
+    </div>
+
+    <script src="./video-controls.js"> </script>
+</body>
+
+</html>
