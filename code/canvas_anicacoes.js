@@ -36,4 +36,3 @@ setInterval(function () {
     desenharCirculo(circulo)
 
 },30);
-

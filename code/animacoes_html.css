@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tela {
+    background-color: blueviolet;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.quadrado {
+    background-color: aqua;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
